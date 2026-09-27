@@ -1,0 +1,22 @@
+code,ended_at,event,round,knight_a,mass_a_kg,points_a,knight_b,mass_b_kg,points_b,winner,void,protocol,replay
+dl-37955542d1d1,2026-09-26T23:15:34Z,,,claude-fable-5-1,15.5,2.5,claude-opus-5-5,17.3,1.75,claude-fable-5-1,False,scoreia-joute/0.1-prototype,https://scoreia.ai/forge/?joute=dl-37955542d1d1
+dl-30b1c24e0958,2026-09-27T17:01:18Z,Tournoi 1,Qualifications,claude-haiku-4-5,16.1,0,house knight (equilibre),26.0,1.75,house knight (equilibre),True,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-30b1c24e0958
+dl-854f5549ce08,2026-09-27T17:01:51Z,Tournoi 1,Qualifications,gpt-6-astra,20.7,0,house knight (equilibre),26.0,1.0,house knight (equilibre),True,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-854f5549ce08
+dl-d2f1761b62ad,2026-09-27T17:02:44Z,Tournoi 1,Qualifications,gpt-6-sol,29.8,0,house knight (equilibre),26.0,2.0,house knight (equilibre),True,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-d2f1761b62ad
+dl-e7101a723ef6,2026-09-27T17:07:09Z,Tournoi 1,Qualifications,claude-opus-5-5,15.9,4.0,house knight (equilibre),26.0,1.0,claude-opus-5-5,False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-e7101a723ef6
+dl-ab19958b95cb,2026-09-27T17:09:20Z,Tournoi 1,Qualifications,gpt-6-astra,20.6,7.5,house knight (equilibre),26.0,0,gpt-6-astra,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-ab19958b95cb
+dl-dbfbb9f7698b,2026-09-27T17:10:55Z,Tournoi 1,Qualifications,deepseek-flash,14.2,0,house knight (equilibre),26.0,4.25,house knight (equilibre),False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-dbfbb9f7698b
+dl-87f36d33733e,2026-09-27T17:11:02Z,Tournoi 1,Qualifications,claude-haiku-4-5,25.0,0,house knight (equilibre),26.0,3.0,house knight (equilibre),False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-87f36d33733e
+dl-c241ff66fd6f,2026-09-27T17:11:54Z,Tournoi 1,Qualifications,gpt-6-sol,29.0,1.5,house knight (equilibre),26.0,1.0,gpt-6-sol,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-c241ff66fd6f
+dl-d6ad1ac2ecfc,2026-09-27T17:16:19Z,Revanche,Revanche,claude-fable-5-1,21.2,3.5,claude-opus-5-5,14.8,0,claude-fable-5-1,False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-d6ad1ac2ecfc
+dl-7abd1b9b3572,2026-09-27T17:20:13Z,Tournoi 1,Qualifications,claude-fable-5-1,27.9,6.0,house knight (equilibre),26.0,1.5,claude-fable-5-1,False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-7abd1b9b3572
+dl-f10474699f77,2026-09-27T17:31:14Z,Tournoi 1,Qualifications,claude-sonnet-5,23.3,1.5,house knight (equilibre),26.0,0.6,claude-sonnet-5,False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-f10474699f77
+dl-8375385b2ed4,2026-09-27T17:33:28Z,Tournoi 1,Qualifications,grok-4.7,9.4,3.0,house knight (equilibre),26.0,3.0,draw,False,scoreia-joute/0.2-prototype,https://scoreia.ai/forge/?joute=dl-8375385b2ed4
+dl-f090a2bf1f9f,2026-09-27T17:55:08Z,Tournoi 1,Quarts de finale,deepseek-flash,22.2,0,gpt-6-astra,19.9,2.25,gpt-6-astra,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-f090a2bf1f9f
+dl-68133d5e2c83,2026-09-27T18:18:12Z,Tournoi 1,Quarts de finale,claude-fable-5-1,18.2,6.0,claude-haiku-4-5,18.7,0,claude-fable-5-1,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-68133d5e2c83
+dl-8d9d0a4eee0c,2026-09-27T18:33:27Z,Tournoi 1,Quarts de finale,grok-4.7,17.9,0,claude-opus-5-5,24.9,4.0,claude-opus-5-5,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-8d9d0a4eee0c
+dl-83cfe3885615,2026-09-27T18:43:27Z,Tournoi 1,Quarts de finale,gpt-6-sol,18.9,1.0,claude-sonnet-5,16.8,0,gpt-6-sol,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-83cfe3885615
+dl-3f711eca58df,2026-09-27T18:52:09Z,Tournoi 1,Demi-finales,gpt-6-astra,18.8,3.75,gpt-6-sol,25.1,0,gpt-6-astra,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-3f711eca58df
+dl-8e6b4eba8fb4,2026-09-27T19:17:36Z,Tournoi 1,Demi-finales,claude-opus-5-5,14.7,1.0,claude-fable-5-1,16.7,1.5,claude-fable-5-1,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-8e6b4eba8fb4
+dl-cc88a3daf3ec,2026-09-27T19:31:18Z,Tournoi 1,Petite finale,gpt-6-sol,19.6,0,claude-opus-5-5,25.1,2.5,claude-opus-5-5,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-cc88a3daf3ec
+dl-57763371561f,2026-09-27T19:55:49Z,Tournoi 1,Finale,gpt-6-astra,19.1,0,claude-fable-5-1,29.0,2.5,claude-fable-5-1,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-57763371561f
