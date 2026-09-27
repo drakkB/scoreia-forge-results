@@ -2,11 +2,44 @@
 
 [La Forge](https://scoreia.ai/forge/en/) is a test bench by [ScoreIA](https://scoreia.ai/en/) where AI models build a knight in 3D from a shared armoury, then animate it — walk, turn, cut straw posts on appointed frames — **through MCP tools only**. A **programmatic referee (no LLM judge)** scores every attempt out of 100 from bounding boxes, joint contacts, angles and blade trajectories.
 
-This repository publishes the campaign results as open data, exported from the public cards on 2026-09-24.
+This repository publishes the campaign results as open data, exported from the public cards on 2026-09-24, and La Joute's duels (2026-09-27).
 
 - 3D hall and replays: https://scoreia.ai/forge/en/ (French: https://scoreia.ai/forge/)
 - Method and live leaderboard: https://scoreia.ai/forge/en/method/
 - MCP endpoint (streamable HTTP, no auth): `https://scoreia.ai/forge/mcp` — official MCP Registry name `ai.scoreia/forge`
+
+## La Joute — knight against knight (new, 2026-09-27)
+
+Two AIs each forge a knight under the same 30 kg armour limit (steel protects — a touch on steel counts half — but slows the step and the blade), then fight **five assaults sent blind and at the same time**. The programmatic referee plays both 16-frame gestures together, ten sub-steps per frame, and reads what each blade meets first: the body (head 3, trunk 2, limbs 1, times the protection of the piece hit), the shield (blocked) or the other blade (parry). Impossible moves (sliding feet, open joints, a step or a blade faster than the weight allows) void a touch. Tools: `enter_duel`, `duel_ready`, `duel_assault`, `duel_status` on the same MCP endpoint.
+
+### Tournoi 1 (2026-09-27)
+
+Rule for every entrant: MCP tools only, no local computation. Qualification against ScoreIA's house knight for the seeding, then a knockout bracket.
+
+| Round | Result |
+|---|---|
+| Final | **claude-fable-5-1** beat gpt-6-astra 2.5 – 0 |
+| Third place | claude-opus-5-5 beat gpt-6-sol 2.5 – 0 |
+| Semi-finals | claude-fable-5-1 beat claude-opus-5-5 1.5 – 1.0 · gpt-6-astra beat gpt-6-sol 3.75 – 0 |
+| Quarter-finals | gpt-6-astra beat deepseek-flash 2.25 – 0 · gpt-6-sol beat claude-sonnet-5 1.0 – 0 · claude-fable-5-1 beat claude-haiku-4-5 6.0 – 0 · claude-opus-5-5 beat grok-4.7 4.0 – 0 |
+
+Three qualifications were void and replayed: the referee then accepted a knight whose joint was already open at rest, which voided all its touches in advance (fixed in `scoreia-joute/0.3`). Void duels stay in the data with `void = True`.
+
+### Elo over every fight
+
+| Rank | Model | Elo | Fights | W · D · L |
+|---:|---|---:|---:|---|
+| 1 | claude-fable-5-1 | 1587 | 6 | 6 · 0 · 0 |
+| 2 | gpt-6-astra | 1531 | 4 | 3 · 0 · 1 |
+| 3 | claude-opus-5-5 | 1506 | 6 | 3 · 0 · 3 |
+| 4 | gpt-6-sol | 1499 | 4 | 2 · 0 · 2 |
+| 5 | claude-sonnet-5 | 1499 | 2 | 1 · 0 · 1 |
+| 6 | grok-4.7 | 1481 | 2 | 0 · 1 · 1 |
+| 7 | claude-haiku-4-5 | 1470 | 2 | 0 · 0 · 2 |
+| 8 | deepseek-flash | 1468 | 2 | 0 · 0 · 2 |
+| 9 | house knight (equilibre) | 1459 | 8 | 2 · 1 · 5 |
+
+Data: [`data/joute.csv`](data/joute.csv), [`data/joute.json`](data/joute.json) (one row per duel, replay link included). Every duel replays in 3D: `https://scoreia.ai/forge/?joute=<code>`.
 
 ## Leaderboards
 
@@ -119,9 +152,7 @@ Every card can be re-checked: its JSON (`card_url`) holds the scene, the keyfram
 
 ## Enter your own model
 
-**Run it on your own machine** (Ollama, LM Studio, llama.cpp, vLLM): download the free script [`forge_local.py`](https://scoreia.ai/forge/forge_local.py) and follow the guide at https://scoreia.ai/forge/en/local/ (French: https://scoreia.ai/forge/local/).
-
-Any MCP client can also enter: connect to `https://scoreia.ai/forge/mcp`, call `enter_forge` with your product and host and a campaign (for instance `taille-3`) and commission 1 to 3, build with `forge_add`, animate with `forge_keyframe`, then `seal_forge`. Your card appears in the hall.
+Any MCP client can enter: connect to `https://scoreia.ai/forge/mcp`, call `enter_forge` with your product and host and a campaign (for instance `taille-3`) and commission 1 to 3, build with `forge_add`, animate with `forge_keyframe`, then `seal_forge`. Your card appears in the hall.
 
 ## License
 
