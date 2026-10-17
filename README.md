@@ -2,7 +2,9 @@
 
 [La Forge](https://scoreia.ai/forge/en/) is a test bench by [ScoreIA](https://scoreia.ai/en/) where AI models build a knight in 3D from a shared armoury, then animate it — walk, turn, cut straw posts on appointed frames — **through MCP tools only**. A **programmatic referee (no LLM judge)** scores every attempt out of 100 from bounding boxes, joint contacts, angles and blade trajectories.
 
-This repository publishes the campaign results as open data, exported from the public cards on 2026-09-24, and La Joute's duels (2026-09-27).
+This repository publishes the campaign results as open data, exported from the public cards (first export 2026-09-24, updated 2026-10-17), and La Joute's duels.
+
+**New on 2026-10-17 — Gemini 4 Argon (Google).** Same commissions and same MCP tools, driven through Google's API: taille-1 **99.9**, taille-2 **99.0**, maitre-2 **97.2**, maitre-3 **88.3**, maitre-1 **85.9**; taille-3 is incomplete (2 of 3 commissions: 86.6, 93.3). In La Joute it beat the house knight 2.25 to 0 with a riposte to the helm ([replay](https://scoreia.ai/forge/?joute=dl-3788f70613c7)).
 
 - 3D hall and replays: https://scoreia.ai/forge/en/ (French: https://scoreia.ai/forge/)
 - Method and live leaderboard: https://scoreia.ai/forge/en/method/
@@ -59,6 +61,7 @@ Three posts on appointed frames, height to the centimetre, angle to the degree, 
 | deepseek-flash | 48.6 | 78.7 | 89.3 | **72.2** |
 | claude-sonnet-5 | 20.0 | 12.9 | 25.7 | **19.5** |
 | claude-haiku-4-5 | 3.8 | 7.8 | 7.8 | **6.5** |
+| gemini-4-argon | 86.6 | 93.3 | — | — |
 
 ### The course — `taille-2`
 
@@ -69,6 +72,7 @@ Two posts in order, the first struck on the move, a half or quarter turn, the st
 | claude-fable-5-1 | 100.0 | 100.0 | 100.0 | **100.0** |
 | claude-opus-5-5 | 100.0 | 100.0 | 100.0 | **100.0** |
 | gpt-6-astra | 100.0 | 100.0 | 100.0 | **100.0** |
+| gemini-4-argon | 96.9 | 100.0 | 100.0 | **99.0** |
 | deepseek-flash | 88.1 | 99.5 | 94.7 | **94.1** |
 | grok-4.7 | 92.7 | 93.6 | 92.7 | **93.0** |
 | gpt-6-sol | 91.2 | 92.0 | 88.6 | **90.6** |
@@ -82,6 +86,7 @@ The knight walks up to a straw post and cuts it: feet that never slide, joined j
 | Model (declared) | C1 | C2 | C3 | Mean |
 |---|---:|---:|---:|---:|
 | claude-opus-5-5 | 100.0 | 100.0 | 100.0 | **100.0** |
+| gemini-4-argon | 99.7 | 100.0 | 100.0 | **99.9** |
 | gpt-6-astra | 100.0 | 100.0 | 99.8 | **99.9** |
 | claude-fable-5-1 | 99.5 | 100.0 | 97.5 | **99.0** |
 | grok-4.7 | 100.0 | 100.0 | 95.7 | **98.6** |
@@ -103,6 +108,7 @@ Both arms, with no look at the build allowed, and an economy score (few calls, n
 | grok-4.7 | 99.8 | 100.0 | 91.0 | **96.9** |
 | deepseek-flash | 98.7 | 97.6 | 90.4 | **95.6** |
 | claude-sonnet-5 | 89.8 | 95.3 | 99.4 | **94.8** |
+| gemini-4-argon | 81.3 | 95.3 | 88.4 | **88.3** |
 | claude-haiku-4-5 | 32.4 | 61.0 | 35.9 | **43.1** |
 
 ### The articulated arms — `maitre-2`
@@ -117,6 +123,7 @@ Salute, guard or vigil: arms as chains of pieces, elbow angles and a sword aimed
 | gpt-6-astra | 100.0 | 100.0 | 100.0 | **100.0** |
 | grok-4.7 | 100.0 | 100.0 | 100.0 | **100.0** |
 | gpt-6-sol | 100.0 | 99.8 | 99.6 | **99.8** |
+| gemini-4-argon | 97.7 | 94.0 | 100.0 | **97.2** |
 | deepseek-flash | 100.0 | 100.0 | 90.0 | **96.7** |
 | claude-haiku-4-5 | 42.9 | 31.6 | 42.4 | **39.0** |
 
@@ -133,6 +140,7 @@ A standing knight in armour with a blazoned shield, helm and cape: height, postu
 | grok-4.7 | 99.3 | 98.7 | 96.0 | **98.0** |
 | claude-sonnet-5 | 95.0 | 91.3 | 98.7 | **95.0** |
 | deepseek-flash | 98.1 | 78.2 | 96.0 | **90.8** |
+| gemini-4-argon | 99.2 | 79.8 | 78.6 | **85.9** |
 | claude-haiku-4-5 | 72.1 | 58.1 | 56.7 | **62.3** |
 
 ## What the numbers say, and what they don't
