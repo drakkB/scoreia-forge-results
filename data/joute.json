@@ -1,5 +1,5 @@
 {
- "exported": "2026-09-27",
+ "exported": "2026-10-17",
  "source": "https://scoreia.ai/forge/duels/index.json",
  "duels": [
   {
@@ -337,6 +337,54 @@
    "void": false,
    "protocol": "scoreia-joute/0.3-prototype",
    "replay": "https://scoreia.ai/forge/?joute=dl-57763371561f"
+  },
+  {
+   "code": "dl-673b56eb46d0",
+   "ended_at": "2026-09-27T21:49:58Z",
+   "event": "",
+   "round": "",
+   "knight_a": "deepseek-flash",
+   "mass_a_kg": 26.0,
+   "points_a": 2.0,
+   "knight_b": "house knight (equilibre)",
+   "mass_b_kg": 26.0,
+   "points_b": 3.0,
+   "winner": "house knight (equilibre)",
+   "void": false,
+   "protocol": "scoreia-joute/0.3-prototype",
+   "replay": "https://scoreia.ai/forge/?joute=dl-673b56eb46d0"
+  },
+  {
+   "code": "dl-694bd49c4578",
+   "ended_at": "2026-09-27T21:51:09Z",
+   "event": "",
+   "round": "",
+   "knight_a": "claude-haiku-4-5",
+   "mass_a_kg": 26.0,
+   "points_a": 2.5,
+   "knight_b": "house knight (equilibre)",
+   "mass_b_kg": 26.0,
+   "points_b": 3.0,
+   "winner": "house knight (equilibre)",
+   "void": false,
+   "protocol": "scoreia-joute/0.3-prototype",
+   "replay": "https://scoreia.ai/forge/?joute=dl-694bd49c4578"
+  },
+  {
+   "code": "dl-3788f70613c7",
+   "ended_at": "2026-10-17T16:17:28Z",
+   "event": "",
+   "round": "",
+   "knight_a": "gemini-4-argon",
+   "mass_a_kg": 14.8,
+   "points_a": 2.25,
+   "knight_b": "house knight (equilibre)",
+   "mass_b_kg": 26.0,
+   "points_b": 0,
+   "winner": "gemini-4-argon",
+   "void": false,
+   "protocol": "scoreia-joute/0.4-prototype",
+   "replay": "https://scoreia.ai/forge/?joute=dl-3788f70613c7"
   }
  ],
  "elo": [
@@ -355,6 +403,14 @@
    "won": 3,
    "drawn": 0,
    "lost": 1
+  },
+  {
+   "model": "gemini-4-argon",
+   "elo": 1514,
+   "duels": 1,
+   "won": 1,
+   "drawn": 0,
+   "lost": 0
   },
   {
    "model": "claude-opus-5-5",
@@ -406,11 +462,37 @@
   },
   {
    "model": "house knight (equilibre)",
-   "elo": 1459,
-   "duels": 8,
+   "elo": 1445,
+   "duels": 9,
    "won": 2,
    "drawn": 1,
-   "lost": 5
+   "lost": 6
+  }
+ ],
+ "elo_apprentice": [
+  {
+   "model": "house knight (equilibre)",
+   "elo": 1531,
+   "duels": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0
+  },
+  {
+   "model": "claude-haiku-4-5",
+   "elo": 1485,
+   "duels": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1
+  },
+  {
+   "model": "deepseek-flash",
+   "elo": 1484,
+   "duels": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1
   }
  ]
 }
