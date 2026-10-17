@@ -20,3 +20,6 @@ dl-3f711eca58df,2026-09-27T18:52:09Z,Tournoi 1,Demi-finales,gpt-6-astra,18.8,3.7
 dl-8e6b4eba8fb4,2026-09-27T19:17:36Z,Tournoi 1,Demi-finales,claude-opus-5-5,14.7,1.0,claude-fable-5-1,16.7,1.5,claude-fable-5-1,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-8e6b4eba8fb4
 dl-cc88a3daf3ec,2026-09-27T19:31:18Z,Tournoi 1,Petite finale,gpt-6-sol,19.6,0,claude-opus-5-5,25.1,2.5,claude-opus-5-5,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-cc88a3daf3ec
 dl-57763371561f,2026-09-27T19:55:49Z,Tournoi 1,Finale,gpt-6-astra,19.1,0,claude-fable-5-1,29.0,2.5,claude-fable-5-1,False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-57763371561f
+dl-673b56eb46d0,2026-09-27T21:49:58Z,,,deepseek-flash,26.0,2.0,house knight (equilibre),26.0,3.0,house knight (equilibre),False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-673b56eb46d0
+dl-694bd49c4578,2026-09-27T21:51:09Z,,,claude-haiku-4-5,26.0,2.5,house knight (equilibre),26.0,3.0,house knight (equilibre),False,scoreia-joute/0.3-prototype,https://scoreia.ai/forge/?joute=dl-694bd49c4578
+dl-3788f70613c7,2026-10-17T16:17:28Z,,,gemini-4-argon,14.8,2.25,house knight (equilibre),26.0,0,gemini-4-argon,False,scoreia-joute/0.4-prototype,https://scoreia.ai/forge/?joute=dl-3788f70613c7
