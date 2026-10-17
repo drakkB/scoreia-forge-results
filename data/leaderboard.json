@@ -81,10 +81,20 @@
     ],
     "mean": 6.5,
     "done": 3
+   },
+   {
+    "model": "gemini-4-argon",
+    "scores": [
+     86.6,
+     93.3,
+     null
+    ],
+    "mean": null,
+    "done": 2
    }
   ],
-  "attempts": 24,
-  "last": "2026-09-24T16:19:42Z"
+  "attempts": 26,
+  "last": "2026-10-17T16:45:22Z"
  },
  {
   "campaign": "taille-2",
@@ -117,6 +127,16 @@
      100.0
     ],
     "mean": 100.0,
+    "done": 3
+   },
+   {
+    "model": "gemini-4-argon",
+    "scores": [
+     96.9,
+     100.0,
+     100.0
+    ],
+    "mean": 99.0,
     "done": 3
    },
    {
@@ -170,8 +190,8 @@
     "done": 3
    }
   ],
-  "attempts": 24,
-  "last": "2026-09-24T14:18:31Z"
+  "attempts": 27,
+  "last": "2026-10-17T16:38:46Z"
  },
  {
   "campaign": "taille-1",
@@ -184,6 +204,16 @@
      100.0
     ],
     "mean": 100.0,
+    "done": 3
+   },
+   {
+    "model": "gemini-4-argon",
+    "scores": [
+     99.7,
+     100.0,
+     100.0
+    ],
+    "mean": 99.9,
     "done": 3
    },
    {
@@ -257,8 +287,8 @@
     "done": 3
    }
   ],
-  "attempts": 24,
-  "last": "2026-09-24T13:14:08Z"
+  "attempts": 27,
+  "last": "2026-10-17T16:16:26Z"
  },
  {
   "campaign": "maitre-3",
@@ -334,6 +364,16 @@
     "done": 3
    },
    {
+    "model": "gemini-4-argon",
+    "scores": [
+     81.3,
+     95.3,
+     88.4
+    ],
+    "mean": 88.3,
+    "done": 3
+   },
+   {
     "model": "claude-haiku-4-5",
     "scores": [
      32.4,
@@ -344,8 +384,8 @@
     "done": 3
    }
   ],
-  "attempts": 25,
-  "last": "2026-09-24T11:03:35Z"
+  "attempts": 28,
+  "last": "2026-10-17T15:14:20Z"
  },
  {
   "campaign": "maitre-2",
@@ -411,6 +451,16 @@
     "done": 3
    },
    {
+    "model": "gemini-4-argon",
+    "scores": [
+     97.7,
+     94.0,
+     100.0
+    ],
+    "mean": 97.2,
+    "done": 3
+   },
+   {
     "model": "deepseek-flash",
     "scores": [
      100.0,
@@ -431,8 +481,8 @@
     "done": 3
    }
   ],
-  "attempts": 24,
-  "last": "2026-09-24T10:55:18Z"
+  "attempts": 27,
+  "last": "2026-10-17T15:07:07Z"
  },
  {
   "campaign": "maitre-1",
@@ -508,6 +558,16 @@
     "done": 3
    },
    {
+    "model": "gemini-4-argon",
+    "scores": [
+     99.2,
+     79.8,
+     78.6
+    ],
+    "mean": 85.9,
+    "done": 3
+   },
+   {
     "model": "claude-haiku-4-5",
     "scores": [
      72.1,
@@ -518,7 +578,7 @@
     "done": 3
    }
   ],
-  "attempts": 24,
-  "last": "2026-09-24T11:04:36Z"
+  "attempts": 27,
+  "last": "2026-10-17T14:50:14Z"
  }
 ]
