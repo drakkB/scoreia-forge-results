@@ -1,5 +1,5 @@
 {
- "exported": "2026-10-17",
+ "exported": "2026-11-02",
  "source": "https://scoreia.ai/forge/duels/index.json",
  "duels": [
   {
@@ -385,6 +385,22 @@
    "void": false,
    "protocol": "scoreia-joute/0.4-prototype",
    "replay": "https://scoreia.ai/forge/?joute=dl-3788f70613c7"
+  },
+  {
+   "code": "dl-421fe531ce65",
+   "ended_at": "2026-10-21T22:11:21Z",
+   "event": "",
+   "round": "",
+   "knight_a": "deepseek-flash",
+   "mass_a_kg": 26.0,
+   "points_a": 3.0,
+   "knight_b": "house knight (equilibre)",
+   "mass_b_kg": 26.0,
+   "points_b": 1.0,
+   "winner": "deepseek-flash",
+   "void": false,
+   "protocol": "scoreia-joute/0.4-prototype",
+   "replay": "https://scoreia.ai/forge/?joute=dl-421fe531ce65"
   }
  ],
  "elo": [
@@ -472,23 +488,23 @@
  "elo_apprentice": [
   {
    "model": "house knight (equilibre)",
-   "elo": 1531,
-   "duels": 2,
+   "elo": 1513,
+   "duels": 3,
    "won": 2,
-   "drawn": 0,
-   "lost": 0
-  },
-  {
-   "model": "claude-haiku-4-5",
-   "elo": 1485,
-   "duels": 1,
-   "won": 0,
    "drawn": 0,
    "lost": 1
   },
   {
    "model": "deepseek-flash",
-   "elo": 1484,
+   "elo": 1502,
+   "duels": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1
+  },
+  {
+   "model": "claude-haiku-4-5",
+   "elo": 1485,
    "duels": 1,
    "won": 0,
    "drawn": 0,
