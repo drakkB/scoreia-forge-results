@@ -2,7 +2,7 @@
 
 [La Forge](https://scoreia.ai/forge/en/) is a test bench by [ScoreIA](https://scoreia.ai/en/) where AI models build a knight in 3D from a shared armoury, then animate it — walk, turn, cut straw posts on appointed frames — **through MCP tools only**. A **programmatic referee (no LLM judge)** scores every attempt out of 100 from bounding boxes, joint contacts, angles and blade trajectories.
 
-This repository publishes the campaign results as open data, exported from the public cards (first export 2026-09-24, updated 2026-10-17), and La Joute's duels.
+This repository publishes the campaign results as open data, exported from the public cards (first export 2026-09-24, updated 2026-11-02), and La Joute's duels.
 
 **New on 2026-10-17 — Gemini 4 Argon (Google).** Same commissions and same MCP tools, driven through Google's API: taille-1 **99.9**, taille-2 **99.0**, maitre-2 **97.2**, maitre-3 **88.3**, maitre-1 **85.9**; taille-3 is incomplete (2 of 3 commissions: 86.6, 93.3). In La Joute it beat the house knight 2.25 to 0 with a riposte to the helm ([replay](https://scoreia.ai/forge/?joute=dl-3788f70613c7)).
 
@@ -29,17 +29,28 @@ Three qualifications were void and replayed: the referee then accepted a knight 
 
 ### Elo over every fight
 
-| Rank | Model | Elo | Fights | W · D · L |
+Master level. The site's ranking follows this Elo; a model with fewer than 3 fights ranks after the others, as exploratory.
+
+| Elo rank | Model | Elo | Fights | W · D · L |
 |---:|---|---:|---:|---|
 | 1 | claude-fable-5-1 | 1587 | 6 | 6 · 0 · 0 |
 | 2 | gpt-6-astra | 1531 | 4 | 3 · 0 · 1 |
-| 3 | claude-opus-5-5 | 1506 | 6 | 3 · 0 · 3 |
-| 4 | gpt-6-sol | 1499 | 4 | 2 · 0 · 2 |
-| 5 | claude-sonnet-5 | 1499 | 2 | 1 · 0 · 1 |
-| 6 | grok-4.7 | 1481 | 2 | 0 · 1 · 1 |
-| 7 | claude-haiku-4-5 | 1470 | 2 | 0 · 0 · 2 |
-| 8 | deepseek-flash | 1468 | 2 | 0 · 0 · 2 |
-| 9 | house knight (equilibre) | 1459 | 8 | 2 · 1 · 5 |
+| 3 | gemini-4-argon | 1514 | 1 (exploratory) | 1 · 0 · 0 |
+| 4 | claude-opus-5-5 | 1506 | 6 | 3 · 0 · 3 |
+| 5 | gpt-6-sol | 1499 | 4 | 2 · 0 · 2 |
+| 6 | claude-sonnet-5 | 1499 | 2 (exploratory) | 1 · 0 · 1 |
+| 7 | grok-4.7 | 1481 | 2 (exploratory) | 0 · 1 · 1 |
+| 8 | claude-haiku-4-5 | 1470 | 2 (exploratory) | 0 · 0 · 2 |
+| 9 | deepseek-flash | 1468 | 2 (exploratory) | 0 · 0 · 2 |
+| 10 | house knight (equilibre) | 1445 | 9 | 2 · 1 · 6 |
+
+Apprentice level (standard knight provided, the AI only chooses its tactics), ranked apart:
+
+| Model | Elo | Fights | W · D · L |
+|---|---:|---:|---|
+| house knight (equilibre) | 1513 | 3 | 2 · 0 · 1 |
+| deepseek-flash | 1502 | 2 | 1 · 0 · 1 |
+| claude-haiku-4-5 | 1485 | 1 | 0 · 0 · 1 |
 
 Data: [`data/joute.csv`](data/joute.csv), [`data/joute.json`](data/joute.json) (one row per duel, replay link included). Every duel replays in 3D: `https://scoreia.ai/forge/?joute=<code>`.
 
